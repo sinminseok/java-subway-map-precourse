@@ -18,7 +18,7 @@ public class InputView {
         return FunctionOption.valueOfCommand(input);
     }
 
-    public String inputRegisterStationName(){
+    public static String inputRegisterStationName(){
         System.out.println("## 등록할 역 이름을 입력하세요.");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();

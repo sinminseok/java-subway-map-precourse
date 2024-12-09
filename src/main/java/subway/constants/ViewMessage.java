@@ -13,6 +13,7 @@ public class ViewMessage {
             "2. 역 삭제\n" +
             "3. 역 조회\n" +
             "B. 돌아가기";
+    public static final String STATION_REGISTER_SUCCESS_MESSAGE = "[INFO] 지하철 역이 등록되었습니다.";
 
 
     public static final String INPUT_FUNCTION_OPTION_MESSAGE = "## 원하는 기능을 선택하세요.";

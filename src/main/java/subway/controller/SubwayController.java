@@ -19,5 +19,8 @@ public class SubwayController {
     public void manageStation(){
         OutputView.printStationOption();
         FunctionOption option = InputView.intputOption();
+        String stationName = InputView.inputRegisterStationName();
+        //역 등록 로직 구현
+        OutputView.printSuccessRegisterStation();
     }
 }
