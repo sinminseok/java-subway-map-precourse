@@ -11,7 +11,7 @@ public class InputView {
     private InputView(){
     }
 
-    public static FunctionOption inputMainOption(){
+    public static FunctionOption intputOption(){
         System.out.println(INPUT_FUNCTION_OPTION_MESSAGE);
         Scanner sc = new Scanner(System.in);
         String input = sc.next();

@@ -23,4 +23,27 @@ public enum FunctionOption {
                 .orElseThrow(() -> new IllegalArgumentException("올바르지 않는 입력입니다."));
     }
 
+    public boolean isOne(){
+        return this == ONE;
+    }
+
+    public boolean isTWO(){
+        return this == TWO;
+    }
+
+    public boolean isThree(){
+        return this == THREE;
+    }
+
+    public boolean isFour(){
+        return this == FOUR;
+    }
+
+    public boolean isQuit(){
+        return this == QUIT;
+    }
+
+    public boolean isBack(){
+        return this == BACK;
+    }
 }
