@@ -82,12 +82,12 @@ public class InputView {
         return input;
     }
 
-    public static String inputRegisterTermNumber(){
+    public static int inputRegisterTermNumber(){
         System.out.println("## 순서를 입력하세요.");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
         //todo 공백인지 검증
-        return input;
+        return Integer.parseInt(input);
     }
 
     public static String inputDeleteTermLineName(){

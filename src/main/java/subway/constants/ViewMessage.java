@@ -17,6 +17,7 @@ public class ViewMessage {
     public static final String STATION_DELETE_SUCCESS_MESSAGE = "[INFO] 지하철 역이 삭제되었습니다.";
     public static final String STATIONS_LIST_MESSAGE = "## 역 목록";
     public static final String ITEM_INFO = "[INFO] ";
+    public static final String LINE_STATION_DIVISION = ITEM_INFO + "---";
     public static final String LINE_SCREEN_OPTION_MESSAGE = "## 노선 관리 화면\n" +
             "1. 노선 등록\n" +
             "2. 노선 삭제\n" +
@@ -31,6 +32,7 @@ public class ViewMessage {
             "B. 돌아가기";
     public static final String TERM_REGISTER_SUCCESS_MESSAGE = "[INFO] 구간이 등록되었습니다.";
     public static final String TERM_DELETE_SUCCESS_MESSAGE = "[INFO] 구간이 삭제되었습니다.";
+    public static final String SUBWAY_ROUTE_MESSAGE = "## 지하철 노선도";
 
     public static final String INPUT_FUNCTION_OPTION_MESSAGE = "## 원하는 기능을 선택하세요.";
 }
