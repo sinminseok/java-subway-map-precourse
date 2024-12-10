@@ -25,4 +25,12 @@ public class InputView {
         //todo 공백인지 검증
         return input;
     }
+
+    public static String inputDeleteStationName(){
+        System.out.println("## 삭제할 역 이름을 입력하세요.");
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
+        //todo 공백인지 검증
+        return input;
+    }
 }
