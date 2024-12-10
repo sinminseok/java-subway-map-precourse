@@ -18,9 +18,43 @@ public class OutputView {
         System.out.println(STATION_REGISTER_SUCCESS_MESSAGE);
     }
 
+    public static void printSuccessDeleteStation(){
+        System.out.println(STATION_DELETE_SUCCESS_MESSAGE);
+    }
+
+    public static void printLineOption(){
+        System.out.println(LINE_SCREEN_OPTION_MESSAGE);
+    }
+
+    public static void printSuccessRegisterLine(){
+        System.out.println(LINE_REGISTER_SUCCESS_MESSAGE);
+    }
+
+    public static void printLines(List<String> lineNames){
+        System.out.println(LINE_LIST_MESSAGE);
+        lineNames.stream()
+                .forEach(name -> System.out.println(ITEM_INFO + name));
+    }
+
     public static void printStations(List<String> stationNames){
         System.out.println(STATIONS_LIST_MESSAGE);
         stationNames.stream()
-                .forEach(name -> System.out.println(STATION_INFORMATION_FORM + name));
+                .forEach(name -> System.out.println(ITEM_INFO + name));
+    }
+
+    public static void printSuccessDeleteLine() {
+        System.out.println(LINE_DELETE_SUCCESS_MESSAGE);
+    }
+
+    public static void printTermOption() {
+        System.out.println(TERM_SCREEN_OPTION_MESSAGE);
+    }
+
+    public static void printSuccessRegisterTerm(){
+        System.out.println(TERM_REGISTER_SUCCESS_MESSAGE);
+    }
+
+    public static void printSuccessDeleteTerm(){
+        System.out.println(TERM_DELETE_SUCCESS_MESSAGE);
     }
 }
